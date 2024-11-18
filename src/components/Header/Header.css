@@ -1,0 +1,118 @@
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    overflow: hidden;
+}
+
+h1, p{
+    margin: 0;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;
+}
+
+.cv-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+} */
+.chari{
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #09f043, #ba0b0b, #7b07f8, #07f03e );
+    background-position: 100% 0;
+    transition: background-position 0.5s ease-out;
+    animation: slideBg 3s infinite alternate;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+@keyframes slideBg {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+.avatar {
+    border-radius: 99999px;
+    width: 150px;
+    height: auto;
+    animation: fallAndBounce 2s ease-in-out forwards;
+}
+}
+.avatar-container {
+    align-self: center;
+    position: relative;
+    padding-top: 10px;
+    /* height: 250px; */
+}
+
+@keyframes fallAndBounce {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    70% {
+        transform: translateY(0);
+    }
+    85% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width:568px) {
+    .hero-banner {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+
+        .avatar {
+            border-radius: 99999px;
+            width: 210px;
+            height: auto;
+            animation: fallAndBounce 2s ease-in-out forwards;
+        }
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+
+
+    
+  }
