@@ -1,4 +1,115 @@
-h2{
-    font-size: 1.5rem;
-    
+
+  
+.contactForm {
+  padding: 16px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.pageHeading {
+  color: #2c506d;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.formElement {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelField {
+  margin-top: 20px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.6em;
+  padding-left: 1em;
+  border: 1px solid #4F6D85;
+  border-radius: 4px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4F6D85;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 26px;
+  font-weight: bolder;
+  transition: background-color 0.1s ease;
+}
+
+.button:hover {
+  background-color: #d4a20d;
+}
+
+.imageContainer {
+  position: fixed;
+  bottom: 73px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: -300;
+}
+
+.contactImage {
+  width: 100%;
+  height: auto;
+}
+
+.successMessage {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: rgb(148, 213, 148);
+}
+
+.successMessage span {
+  padding-left: 10px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.sendFail {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: rgb(230, 168, 161);
+}
+
+.sendFail span {
+  padding-left: 10px;
+}
+
+@media (min-width: 379px) {
+ 
+
+    .contactForm {
+        --header-height: 150px;
+        --footer-height: 63px;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+ 
+
+  .contactImage {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
 }
