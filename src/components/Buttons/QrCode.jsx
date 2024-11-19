@@ -7,7 +7,7 @@ const QrCode = () => {
     <div>
       <Button>
         <a
-          href="https://drive.google.com/file/d/1mU6ZpANOzk3ZtxoCl3LoywL19dnRvSob/view?usp=sharing"
+          href="https://drive.google.com/file/d/120wvffMVH6ehcm1tVeYWYWb194r-LH9j/view?usp=sharing"
           rel="noopener noreferrer"
           target="_blank"
         >
