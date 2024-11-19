@@ -1,10 +1,17 @@
-import './Footer.css'
+import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
-      github & Linkedin
-    </div>
-  )
-}
+    <>
+      <footer>
+        <div className="divider"></div>
+        <small className="copyright">
+          &copy; {new Date().getFullYear()} Chari Cruz | Junior Full Stack
+          Developer
+        </small>
 
-export default Footer
+      </footer>
+    </>
+  );
+};
+
+export default Footer;

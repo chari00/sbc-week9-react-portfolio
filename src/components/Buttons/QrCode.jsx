@@ -1,5 +1,6 @@
 import { Button } from "@material-tailwind/react";
-import qrCode from "../../assets/qr-pdf.png";
+// import qrCode from "../../assets/qr-pdf.png";
+import qrCode from "../../assets/qr-pdf.svg";
 
 const QrCode = () => {
   return (
@@ -10,7 +11,7 @@ const QrCode = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img width="80px" height="80px" src={qrCode} alt={qrCode.name} />
+          <img width="80px" height="auto" src={qrCode} alt={qrCode.name} />
         </a>
       </Button>
     </div>
@@ -18,3 +19,4 @@ const QrCode = () => {
 };
 
 export default QrCode;
+

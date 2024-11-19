@@ -1,0 +1,50 @@
+.experience {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px 0;
+  }
+  
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .experience ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    animation: scroll 40s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .experience li {
+    flex-shrink: 0;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Optional: Add hover effect */
+  .experience li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Optional: Pause animation on hover */
+  .experience:hover ul {
+    animation-play-state: paused;
+  }

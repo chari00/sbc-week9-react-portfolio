@@ -1,0 +1,35 @@
+.about-section{
+  background-image: radial-gradient(
+    circle,
+    rgba(253, 140, 9, 0.646),
+    rgba(229, 46, 113, 0.4)
+  );
+}
+
+Button{
+    color: rgb(48, 132, 243);
+}
+.about-text{
+    font-size: 0.75rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width:1024px) {
+    #root {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    body {
+      margin: 0;
+      width: 100%;
+      min-height: 100vh;
+    }
+    .about-text{
+        font-size: 1.1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+  }

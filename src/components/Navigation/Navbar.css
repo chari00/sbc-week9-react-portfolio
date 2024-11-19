@@ -1,0 +1,44 @@
+nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .temp-logo{
+        width: 40px;
+        height: auto;
+        border-radius: 9999px;
+        height: auto;
+        animation: flip 10s linear infinite;
+        perspective: 1000px;
+        
+    }
+}
+
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}

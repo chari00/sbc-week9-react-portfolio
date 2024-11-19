@@ -1,4 +1,11 @@
-
+.backgroundContainer{
+  background-image: radial-gradient(
+  circle at 50% 50%,
+  #f69ec4 0%,
+  #7eb4e2 50%,
+  #32557f 100%
+);
+}
   
 .contactForm {
   padding: 16px;

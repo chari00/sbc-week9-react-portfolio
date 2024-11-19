@@ -1,0 +1,25 @@
+.projects-container{
+    background-image: radial-gradient(
+  ellipse farthest-corner at 45px 45px,
+  #ff0000 0%, 
+  #0000ff 50%,
+  #00ff00 95%
+);
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+Card{
+    width: 50px;
+    height: auto;
+    padding: 20px;
+}
+
+
+
