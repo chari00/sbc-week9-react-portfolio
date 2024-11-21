@@ -2,9 +2,9 @@ import './Experience.css'
 const Experience = () => {
   
   const technologies = [
-    "HTML5", "CSS3", "JavaScript ES6", "Python", "React", 
-    "Vite", "NextJs", "Django", "ExpressJs", "Figma", 
-    "BrowserStack", "Sentry"
+    "HTML5", "CSS3", "JavaScript ES6", "Python", "React Native", 
+    "Vite", "NextJs", "Django", "ExpressJs", "Figma", 'WordPress',
+    "BrowserStack", "Sentry", 'Supabase'
   ];
 
   return (

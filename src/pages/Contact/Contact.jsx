@@ -1,7 +1,8 @@
 import './Contact.css'
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import cross from '../../assets/icons8-cross-40.png';
+import tick from '../../assets/icons8-tick-48.png'
 
 export default function ContactPage() {
   const form = useRef();
@@ -33,6 +34,7 @@ export default function ContactPage() {
       } else if (value) {
         delete newErrors[name];
       }
+      
       return newErrors;
     });
   };
@@ -46,7 +48,7 @@ export default function ContactPage() {
       formErrors.email = "Email address is invalid";
     }
     
-    
+    if (!formData.message) formErrors.message = "Message is required";
     
     return formErrors;
   };
@@ -73,7 +75,7 @@ export default function ContactPage() {
           setSuccessMessage(
             <div className={successMessage}>
               <img
-                src="/icons8-tick-48.png"
+                src={tick}
                 alt="Success"
                 width={24}
                 height={24}
@@ -94,7 +96,7 @@ export default function ContactPage() {
           setErrorMessage(
             <div className="sendFail">
               <img
-                src="/icons8-cross-40.png"
+                src={cross}
                 alt="Error"
                 width={24}
                 height={24}
