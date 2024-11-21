@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    height: 350px;
+    height: 580px;
     padding-bottom: 20px;
     overflow: hidden;
     background-image: radial-gradient(
@@ -10,7 +10,7 @@
   rgba(194, 181, 167, 0.8),
   rgba(86, 86, 183, 0.4)
 );
-margin-top: 110px;
+    padding-top: 120px;
 
 }
 
@@ -124,6 +124,10 @@ Button{
     h1{
         font-size: 3rem;
     }
+    p{
+        padding-bottom: 15px;
+        font-size: 1.2rem;
+    }
     .cv-contact{
         display: flex;
         justify-content: center;
@@ -149,7 +153,8 @@ Button{
         overflow: hidden;
         padding-bottom: 120px;
         align-items: center;
-        margin-top: 85px;
+        margin-top: 95px;
+        /* margin-bottom: 100px; */
     }
 
     @media (prefers-reduced-motion: no-preference) {

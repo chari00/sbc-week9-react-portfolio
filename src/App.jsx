@@ -2,6 +2,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './components/Footer/Footer'
+// import Vortex from './components/ui/Vortex'
 import Header from './components/Header/Header'
 import Contact from './pages/Contact/Contact'
 import NavBar from './components/Navigation/NavBar'
@@ -13,7 +14,13 @@ import Projects from './pages/Projects/Projects'
 function App() {
   return (
     <>
-    
+    {/* <Vortex
+        backgroundColor="black"
+        rangeY={800}
+        particleCount={500}
+        baseHue={120}
+        className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
+      > */}
     <NavBar/>
      <Header/>
       <Routes>
@@ -28,6 +35,7 @@ function App() {
       <Experience/>
       <Contact/>
       <Footer/>
+        {/* </Vortex> */}
     </>
   )
 }
