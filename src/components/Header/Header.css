@@ -5,48 +5,66 @@
     height: 580px;
     padding-bottom: 20px;
     overflow: hidden;
-    background-image: radial-gradient(
-  circle,
-  rgba(194, 181, 167, 0.8),
-  rgba(86, 86, 183, 0.4)
-);
     padding-top: 120px;
+    width: 100%;
+  
+    /* background-image: radial-gradient(
+      circle,
+      rgba(194, 181, 167, 0.8),
+      rgba(86, 86, 183, 0.4)
+    ); */
+  }
+/* .hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  min-height: 100vh;
+  padding-bottom: 20px;
+  padding-top: 120px;
+  position: relative;
+  width: 100%
+} */
 
+h1,
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1rem;
 }
 
-h1, p{
-    margin: 0;
+.cv-contact {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-h1{
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-p{
-    font-size: 1rem;
-}
-
-.cv-contact{
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-Button{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
+Button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 @media (prefers-reduced-motion: no-preference) {
-    .chari{
-        background-size: 200% auto;
-        background-image: linear-gradient(to right, #09f043, #ba0b0b, #7b07f8, #1a07e5, #09f043 );
-        background-position: 100% 0;
-        transition: background-position 0.5s ease-out;
-        animation: slideBg 4s infinite;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-    }
+  .chari {
+    background-size: 200% auto;
+    background-image: linear-gradient(
+      to right,
+      #09f043,
+      #ba0b0b,
+      #7b07f8,
+      #1a07e5,
+      #09f043
+    );
+    background-position: 100% 0;
+    transition: background-position 0.5s ease-out;
+    animation: slideBg 4s infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
 }
 @keyframes slideBg {
   0% {
@@ -57,130 +75,124 @@ Button{
   }
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
-
-    .avatar {
-        border-radius: 99999px;
-        width: 150px;
-        height: auto;
-        animation: fallAndBounce 2s ease-in-out forwards;
-    }
+  .avatar {
+    border-radius: 99999px;
+    width: 150px;
+    height: auto;
+    animation: fallAndBounce 2s ease-in-out forwards;
+  }
 }
 .avatar-container {
-    align-self: center;
-    position: relative;
-    padding-top: 10px;
-    /* height: 250px; */
+  align-self: center;
+  position: relative;
+  padding-top: 10px;
+  /* height: 250px; */
 }
 
 @keyframes fallAndBounce {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    30% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    70% {
-        transform: translateY(0);
-    }
-    85% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-@media (min-width:568px) {
-    .hero-banner {
-        display: flex;
-        width: 100%;
-        flex-direction: row-reverse;
-        justify-items: center;
-        justify-content: space-evenly;
-        overflow: hidden;
-        padding-bottom: 20px;
-        padding-top: 140px;
+@media (min-width: 568px) {
+  .hero-banner {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 140px;
 
-        align-items: center;
-    }
+    align-items: center;
+  }
 
-    @media (prefers-reduced-motion: no-preference) {
+  @media (prefers-reduced-motion: no-preference) {
+    .avatar {
+      border-radius: 99999px;
+      width: 250px;
+      height: auto;
+      animation: fallAndBounce 2s ease-in-out forwards;
+    }
+  }
 
-        .avatar {
-            border-radius: 99999px;
-            width: 250px;
-            height: auto;
-            animation: fallAndBounce 2s ease-in-out forwards;
-        }
-    }
-
-    h1{
-        font-size: 3rem;
-    }
-    p{
-        padding-bottom: 15px;
-        font-size: 1.2rem;
-    }
-    .cv-contact{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        gap: 25px;
-        width: 250px;
-        flex-direction: row;
-        position: absolute;
-        height: 100px;
-        padding-top: 20px;
-    }
-   
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  .cv-contact {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    width: 250px;
+    flex-direction: row;
+    position: absolute;
+    height: 100px;
+    padding-top: 20px;
+  }
 }
 
-@media (min-width:768px) {
-    .hero-banner {
-        display: flex;
-        width: 100%;
-        flex-direction: row-reverse;
-        justify-items: center;
-        justify-content: space-evenly;
-        overflow: hidden;
-        padding-bottom: 120px;
-        align-items: center;
-        margin-top: 95px;
-        /* margin-bottom: 100px; */
-    }
+@media (min-width: 768px) {
+  .hero-banner {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding-bottom: 120px;
+    align-items: center;
+    margin-top: 95px;
+    /* margin-bottom: 100px; */
+  }
 
-    @media (prefers-reduced-motion: no-preference) {
+  @media (prefers-reduced-motion: no-preference) {
+    .avatar {
+      border-radius: 99999px;
+      width: 350px;
+      height: auto;
+      animation: fallAndBounce 2s ease-in-out forwards;
+    }
+  }
 
-        .avatar {
-            border-radius: 99999px;
-            width: 350px;
-            height: auto;
-            animation: fallAndBounce 2s ease-in-out forwards;
-        }
-    }
-    
-    h1{
-        font-size: 3rem;
-    }
-    .cv-contact{
-        display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        gap: 25px;
-        width: 250px;
-        flex-direction: row;
-        position: absolute;
-        height: 100px;
-        padding-top: 20px;
-    }
-   
+  h1 {
+    font-size: 3rem;
+  }
+  .cv-contact {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    width: 250px;
+    flex-direction: row;
+    position: absolute;
+    height: 100px;
+    padding-top: 20px;
+  }
 }

@@ -1,11 +1,11 @@
-.projects-container{
+/* .projects-container{
     background-image: radial-gradient(
   ellipse farthest-corner at 45px 45px,
   #ff0000 0%, 
   #0000ff 50%,
   #00ff00 95%
 );
-}
+} */
 
 .projects{
     display: flex;
