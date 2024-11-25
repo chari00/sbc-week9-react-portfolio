@@ -17,8 +17,7 @@ const Projects = () => {
         <h1 id="projects" className="mb-8">Projects</h1>
         <section className="projects">
           <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+        
         </section>
         <section className="projects-container">
           <div className="spotlight-project flex justify-evenly items-center flex-wrap gap-5">

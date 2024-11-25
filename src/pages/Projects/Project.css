@@ -7,29 +7,29 @@
 );
 } */
 
-.projects{
+/* .projects{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;
-}
+} */
 
-Card{
+/* Card{
     width: 50px;
     height: auto;
     padding: 20px;
-}
+} */
 
-.spotlight-project{
+/* .spotlight-project{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-} 
+}  */
 
 
 .project-card{
-    padding: 15px 10px;
+    padding: 25px 10px;
 }
 
