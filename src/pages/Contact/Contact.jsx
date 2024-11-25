@@ -115,7 +115,7 @@ export default function ContactPage() {
   return (
     <>
     
-    <div className="backgroundContainer" id="bgContainer">
+    <div className="backgroundContainer" id="contact">
       <div className="contactForm">
         <h1 className="pageHeading">Contact me</h1>
        

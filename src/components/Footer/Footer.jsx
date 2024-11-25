@@ -9,44 +9,45 @@ const Footer = () => {
       Developer
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-        <li>
+      <li>
           <Typography
             as="a"
-            href="#"
+            href="#home"
             color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            About Us
+            Home
           </Typography>
         </li>
         <li>
           <Typography
             as="a"
-            href="#"
+            href="#about"
             color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            License
+            About
           </Typography>
         </li>
         <li>
           <Typography
             as="a"
-            href="#"
+            href="#projects"
             color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            Contribute
+            Projects
           </Typography>
         </li>
+     
         <li>
           <Typography
             as="a"
-            href="#"
+            href="#contact"
             color="white"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            Contact Us
+            Contact
           </Typography>
         </li>
       </ul>

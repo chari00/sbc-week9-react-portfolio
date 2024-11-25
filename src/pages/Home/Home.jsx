@@ -7,14 +7,16 @@
 
 const Home = () => {
   return (
-    <div>
+    <>
+     {/* <div id="home"> */}
       {/* <Header/> */}
       {/* <About/> */}
       {/* <Projects/> */}
       {/* <Experience/> */}
       {/* <Contact/> */}
       
-    </div>
+    {/* </div> */}
+    </>
   )
 }
 

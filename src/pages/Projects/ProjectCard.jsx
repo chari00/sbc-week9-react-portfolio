@@ -1,3 +1,6 @@
+
+
+
 import {
   Card,
   CardHeader,
@@ -8,7 +11,9 @@ import {
 } from "@material-tailwind/react";
 
 import "./Project.css";
+
 const ProjectCard = () => {
+
   return (
     <section className="project-card">
       <Card className="mt-6 w-96">
