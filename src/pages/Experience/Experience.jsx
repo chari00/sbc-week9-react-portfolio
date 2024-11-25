@@ -8,7 +8,8 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience section">
+    <>
+    <div className="experience">
       {/* <h1>Technologies</h1> */}
       <div className="scroll-container">
         <ul>
@@ -18,9 +19,13 @@ const Experience = () => {
           {technologies.map((tech, index) => (
             <li key={`tech-dup-${index}`}>{tech}</li>
           ))}
+             {technologies.map((tech, index) => (
+            <li key={`tech-dup-${index}`}>{tech}</li>
+          ))}
         </ul>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,9 +1,9 @@
 .backgroundContainer{
   background-image: radial-gradient(
   circle at 50% 50%,
-  #f69ec4 0%,
-  #7eb4e2 50%,
-  #32557f 100%
+  #000000 0%,
+  #6b6c6d 40%,
+  #171717 100%
 );
 }
   
@@ -14,7 +14,7 @@
 }
 
 .pageHeading {
-  color: #2c506d;
+  color: white;
   font-weight: bold;
   font-size: 3em;
 }
@@ -40,12 +40,12 @@
 .buttonContainer {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 50px;
 }
 
 .button {
   color: #ffffff;
-  background-color: #4F6D85;
+  background-color: #160a76dc;
   border: none;
   border-radius: 4px;
   padding: 5px 26px;
@@ -54,25 +54,26 @@
 }
 
 .button:hover {
-  background-color: #d4a20d;
+  background-color: #0d08b8cc;
 }
 
-.imageContainer {
+/* .imageContainer {
   position: fixed;
   bottom: 73px;
   left: 0;
   width: 100%;
   text-align: center;
   z-index: -300;
-}
+} */
 
-.contactImage {
+/* .contactImage {
   width: 100%;
   height: auto;
-}
+} */
 
-.successMessage {
+/* .successMessage {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
   padding: 20px;
@@ -83,8 +84,8 @@
 
 .successMessage span {
   padding-left: 10px;
-}
-
+} */
+/* 
 .errorMessage {
   color: red;
 }
@@ -101,22 +102,15 @@
 
 .sendFail span {
   padding-left: 10px;
-}
+} */
 
 @media (min-width: 379px) {
  
 
     .contactForm {
-        --header-height: 150px;
-        --footer-height: 63px;
+
         max-width: 380px;
         margin: 0 auto;
     }
 
- 
-
-  .contactImage {
-    margin: 0 auto;
-    max-width: 1000px;
-  }
 }

@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import cross from '../../assets/icons8-cross-40.png';
 import tick from '../../assets/icons8-tick-48.png'
+import { Button } from '@material-tailwind/react';
 
 export default function ContactPage() {
   const form = useRef();
@@ -112,7 +113,9 @@ export default function ContactPage() {
   // const validatePhoneNumber = (value) => value === '' ? true : value = 0;
 
   return (
-    <div className="backgroundContainer" id="bgContainer">
+    <>
+    
+    <div className="backgroundContainer" id="contact">
       <div className="contactForm">
         <h1 className="pageHeading">Contact me</h1>
        
@@ -172,19 +175,20 @@ export default function ContactPage() {
               cols="40"
               value={formData.message}
               onChange={handleInputChange}
-              style={{ resize: "none" }}
+              style={{ resize: "none", color:"black" }}
             ></textarea>
             {errors.message && (
               <span className={errorMessage}>{errors.message}</span>
             )}
           </label>
           <div className="buttonContainer">
-            <button className="button" onClick={sendEmail} type="submit">
+            <Button className="button" onClick={sendEmail} type="submit">
               Send
-            </button>
+            </Button>
           </div>
         </form>
       </div>
     </div>
+    </>
   );
 }
