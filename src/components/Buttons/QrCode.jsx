@@ -11,7 +11,7 @@ const QrCode = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img width="80px" height="auto" src={qrCode} alt={qrCode.name} />
+          <img width="100px" height="auto" src={qrCode} alt={qrCode.name} />
         </a>
       </Button>
     </div>

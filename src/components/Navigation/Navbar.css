@@ -12,6 +12,7 @@ nav{
     left: 0;
     width: 100%;
     z-index: 1000;
+    /* flex-wrap: wrap; */
 }
 
 .navLinks{
@@ -30,7 +31,6 @@ nav{
         height: auto;
         animation: flip 10s linear infinite;
         perspective: 1000px;
-        
     }
 }
 

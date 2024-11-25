@@ -21,22 +21,23 @@ function App() {
         baseHue={120}
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
       > */}
-      
+      <div className="flex flex-col">
         <NavBar />
         <Header />
-       
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div>
       {/* </Vortex> */}
     </>
   );

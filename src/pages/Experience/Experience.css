@@ -1,15 +1,16 @@
 .experience {
     width: 100%;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.025); */
     padding: 20px 0;
+    
   }
   
   .scroll-container {
     width: 100%;
     overflow: hidden;
   }
-  
+  @media (prefers-reduced-motion: no-preference) {
   .experience ul {
     display: flex;
     list-style: none;
@@ -18,6 +19,7 @@
     animation: scroll 40s linear infinite;
     white-space: nowrap;
   }
+}
   
   .experience li {
     flex-shrink: 0;
@@ -30,7 +32,6 @@
     font-weight: 700;
   }
   
-  /* Optional: Add hover effect */
   .experience li:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);

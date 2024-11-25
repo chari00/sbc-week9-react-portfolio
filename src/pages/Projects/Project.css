@@ -21,10 +21,15 @@ Card{
     padding: 20px;
 }
 
-/* .spotlight-project{
+.spotlight-project{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-} */
+} 
+
+
+.project-card{
+    padding: 15px 10px;
+}
 

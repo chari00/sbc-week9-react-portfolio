@@ -1,5 +1,5 @@
 import "./About.css";
-import { CardSpotlight } from "../../components/ui/CardSpotlight";
+// import { CardSpotlight } from "../../components/ui/CardSpotlight";
 import { Vortex } from "../../components/ui/Vortex";
 import { WobbleCard } from "../../components/ui/WobbleCard";
 

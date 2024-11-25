@@ -1,4 +1,4 @@
-.about-section{
+/* .about-section{
   background-image: radial-gradient(
     circle,
     rgba(253, 140, 9, 0.646),
@@ -6,7 +6,7 @@
   );
   padding-top: 20px;
   padding-bottom: 50px;
-}
+} */
 
 Button{
     color: rgb(48, 132, 243);

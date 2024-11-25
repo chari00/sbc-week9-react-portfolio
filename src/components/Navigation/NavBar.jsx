@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import tempLogo from '../../assets/bouncy-avatar.png'
+import { Button } from "@material-tailwind/react";
+
 
 const NavBar = () => {
   return (
@@ -15,9 +17,9 @@ const NavBar = () => {
             <Link to="/projects">Projects</Link>|
             <Link to="/experience">Experience</Link>
         </div>
-        <button>
+        <Button>
           <Link to="/contact">Contact me</Link>
-        </button>
+        </Button>
       </nav>
     </>
   );
