@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { CardSpotlight } from "../../components/ui/CardSpotlight";
+// import { CardSpotlight } from "../../components/ui/CardSpotlight";
 import "./Project.css";
 import { Vortex } from "../../components/ui/Vortex";
 // import { WobbleCard } from "../../components/ui/WobbleCard";
@@ -19,7 +19,7 @@ const Projects = () => {
           <ProjectCard />
         
         </section>
-        <section className="projects-container">
+        {/* <section className="projects-container">
           <div className="spotlight-project flex justify-evenly items-center flex-wrap gap-5">
             <CardSpotlight className="h-96 w-96">
               <p className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -47,7 +47,7 @@ const Projects = () => {
               </p>
             </CardSpotlight>
           </div>
-        </section>
+        </section> */}
       </Vortex>
     </>
   );

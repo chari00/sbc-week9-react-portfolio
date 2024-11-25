@@ -17,7 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -26,7 +26,7 @@ a:hover {
   color: #646cff;
   font-weight: 700;
   font-size: 1.35rem;
-}
+} */
 
 body {
   margin: 0;
@@ -40,7 +40,7 @@ h1 {
   font-size: 2em;
   line-height: 1.1;
 }
-
+/* 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -58,7 +58,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {

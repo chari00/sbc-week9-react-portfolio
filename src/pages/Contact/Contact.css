@@ -1,9 +1,9 @@
 .backgroundContainer{
   background-image: radial-gradient(
   circle at 50% 50%,
-  #f69ec4 0%,
-  #7eb4e2 50%,
-  #32557f 100%
+  #000000 0%,
+  #6b6c6d 40%,
+  #171717 100%
 );
 }
   
@@ -14,7 +14,7 @@
 }
 
 .pageHeading {
-  color: #2c506d;
+  color: white;
   font-weight: bold;
   font-size: 3em;
 }

@@ -23,6 +23,16 @@ nav{
     flex-wrap: wrap;
 }
 
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #646cff;
+    font-weight: 700;
+    font-size: 1.35rem;
+  }
 @media (prefers-reduced-motion: no-preference) {
     .temp-logo{
         width: 40px;

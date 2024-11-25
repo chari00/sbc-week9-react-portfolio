@@ -175,7 +175,7 @@ export default function ContactPage() {
               cols="40"
               value={formData.message}
               onChange={handleInputChange}
-              style={{ resize: "none" }}
+              style={{ resize: "none", color:"black" }}
             ></textarea>
             {errors.message && (
               <span className={errorMessage}>{errors.message}</span>
