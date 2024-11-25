@@ -42,9 +42,11 @@ const ProjectCard = () => {
   if (projects.length === 0)
     return <Typography className="text-center">No projects found.</Typography>;
 
+  const filteredProjects =projects.filter(project => project.name.toLowerCase().startsWith('sbc-'));
+
   return (
     <section className="project-card flex justify-evenly items-center flex-wrap gap-4">
-      {projects.map((project) => (
+      {filteredProjects.map((project) => (
       <Card key={project.id} className="mt-6 w-96">
         <CardHeader color="blue-gray" className="relative h-56">
           <img
@@ -57,7 +59,7 @@ const ProjectCard = () => {
             {project.name}
           </Typography>
           <Typography>
-            {project.description || "Description not available"}
+            {project.description ? (project.description.length > 70 ? project.description.slice(0,67)+'...' : project.description) : "Description not available"}
           </Typography>
           <Typography>
             Language: {project.language || "Language not specified."}
