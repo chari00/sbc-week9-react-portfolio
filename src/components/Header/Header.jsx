@@ -24,10 +24,10 @@ const Header = () => {
             <img className="avatar" src={avatar} alt={avatar.name} />
           </section>
           <section>
-            <h1>
+            <h1 className="text-white">
               Hi I&apos;m <span className="chari">Chari</span>
             </h1>
-            <p>Junior Full Stack Developer</p>
+            <p className="text-white">Junior Full Stack Developer</p>
             <div className="cv-contact">
               <QrCode />
               <Button>

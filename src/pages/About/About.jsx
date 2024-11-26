@@ -75,9 +75,9 @@ const About = () => {
             </CardSpotlight>
           </div>
         </section> */}
-        <h1 id="about" className="mb-8 mt-4">About Me</h1>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
+        <h1 id="about" className="mb-8 pt-28">About Me</h1>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full ">
           <WobbleCard containerClassName="col-span-1 min-h-[300px]">
             <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
               My Journey began
