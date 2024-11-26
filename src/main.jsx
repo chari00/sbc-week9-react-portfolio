@@ -13,9 +13,9 @@ createRoot(document.getElementById("root")).render(
       <BrowserRouter>
         <ThemeProvider>
           {/* <Vortex> */}
-          <div className="flex flex-col justify-between">
+          {/* <div className="flex flex-col "> */}
             <App />
-          </div>
+          {/* </div> */}
           {/* </Vortex> */}
         </ThemeProvider>
       </BrowserRouter>

@@ -115,9 +115,9 @@ export default function Contact() {
   return (
     <>
     
-    <div className="backgroundContainer" id="contact">
+    <div className="backgroundContainer">
       <div className="contactForm">
-        <h1 className="pageHeading">Contact me</h1>
+        <h1 className="pageHeading mt-28">Contact me</h1>
        
         {successMessage}
         <form ref={form} onSubmit={sendEmail} className="formElement">
