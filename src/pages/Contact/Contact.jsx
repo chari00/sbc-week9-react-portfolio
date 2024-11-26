@@ -5,7 +5,7 @@ import cross from '../../assets/icons8-cross-40.png';
 import tick from '../../assets/icons8-tick-48.png'
 import { Button } from '@material-tailwind/react';
 
-export default function ContactPage() {
+export default function Contact() {
   const form = useRef();
   const [formData, setFormData] = useState({
     name: "",
@@ -81,7 +81,7 @@ export default function ContactPage() {
                 width={24}
                 height={24}
               />
-              <span>Message sent successfully!</span>
+              <span className='bg-blue-800 p-4 rounded-md text-white-500'>Message sent successfully!</span>
             </div>
           );
           setFormData({
@@ -121,7 +121,7 @@ export default function ContactPage() {
        
         {successMessage}
         <form ref={form} onSubmit={sendEmail} className="formElement">
-          <label className="labelField" htmlFor="name">
+          <label className="labelField " htmlFor="name">
             Name
             <input
               className="inputField"

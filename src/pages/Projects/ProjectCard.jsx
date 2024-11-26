@@ -22,7 +22,7 @@ const ProjectCard = () => {
           "https://api.github.com/users/chari00/repos"
         );
         const { data } = response;
-        console.log(response.data);
+        console.log(response);
         setProjects(data);
         setLoading(false);
       } catch (error) {

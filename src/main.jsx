@@ -5,16 +5,18 @@ import App from "./App.jsx";
 import { ThemeProvider } from "@material-tailwind/react";
 import { BrowserRouter } from "react-router-dom";
 import { MotionConfig } from "framer-motion";
-import { Vortex } from "./components/ui/Vortex.jsx";
+// import { Vortex } from "./components/ui/Vortex.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <MotionConfig reducedMotion="user">
       <BrowserRouter>
         <ThemeProvider>
-          <Vortex>
+          {/* <Vortex> */}
+          <div className="flex flex-col justify-between">
             <App />
-          </Vortex>
+          </div>
+          {/* </Vortex> */}
         </ThemeProvider>
       </BrowserRouter>
     </MotionConfig>
