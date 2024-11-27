@@ -110,7 +110,6 @@ export default function Contact() {
       );
   };
 
-  // const validatePhoneNumber = (value) => value === '' ? true : value = 0;
 
   return (
     <>

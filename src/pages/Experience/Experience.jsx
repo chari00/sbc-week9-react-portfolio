@@ -10,7 +10,6 @@ const Experience = () => {
   return (
     <>
     <div className="experience">
-      {/* <h1>Technologies</h1> */}
       <div className="scroll-container">
         <ul>
           {technologies.map((tech, index) => (

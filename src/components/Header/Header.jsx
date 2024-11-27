@@ -6,7 +6,6 @@ import { Vortex } from "../ui/Vortex";
 import Experience from "../../pages/Experience/Experience";
 import { Button } from "@material-tailwind/react";
 
-// import { Boxes } from "../ui/BoxesCore";
 
 const Header = () => {
   return (
@@ -19,7 +18,6 @@ const Header = () => {
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
       >
         <section className="hero-banner">
-          {/* <Boxes className="opacity-1" /> */}
           <section className="avatar-container">
             <img className="avatar" src={avatar} alt={avatar.name} />
           </section>

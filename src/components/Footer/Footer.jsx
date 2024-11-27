@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import "./Footer.css";
 import { Typography } from "@material-tailwind/react";
 
 const Footer = () => {
   return (
     <>
-      <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between pl-5 pr-5 bg-black">
+      <footer className="flex w-full flex-wrap flex-row justify-around items-center gap-y-6 gap-x-12 border-t border-blue-gray-50  py-6 text-center px-5 bg-black">
         <Typography color="white" className="font-normal">
           &copy; {new Date().getFullYear()} Chari Cruz | Junior Full Stack
           Developer
@@ -50,14 +49,6 @@ const Footer = () => {
           </Link>
         </section>
       </footer>
-      {/* <footer>
-        <div className="divider"></div>
-        <small className="copyright">
-          &copy; {new Date().getFullYear()} Chari Cruz | Junior Full Stack
-          Developer
-        </small>
-
-      </footer> */}
     </>
   );
 };

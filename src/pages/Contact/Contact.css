@@ -59,54 +59,9 @@
   background-color: #0d08b8cc;
 }
 
-/* .imageContainer {
-  position: fixed;
-  bottom: 73px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  z-index: -300;
-} */
 
-/* .contactImage {
-  width: 100%;
-  height: auto;
-} */
 
-/* .successMessage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 3px;
-  font-size: 14px;
-  background-color: rgb(148, 213, 148);
-}
-
-.successMessage span {
-  padding-left: 10px;
-} */
-/* 
-.errorMessage {
-  color: red;
-}
-
-.sendFail {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 3px;
-  font-size: 14px;
-  background-color: rgb(230, 168, 161);
-}
-
-.sendFail span {
-  padding-left: 10px;
-} */
-
-@media (min-width: 379px) {
+@media (min-width: 425px) {
   .contactForm {
     max-width: 380px;
     margin: 0 auto;

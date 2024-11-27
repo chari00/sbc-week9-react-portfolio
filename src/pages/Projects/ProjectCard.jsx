@@ -8,7 +8,6 @@ import {
 } from "@material-tailwind/react";
 
 import axios from "axios";
-import "./Project.css";
 import { useEffect, useState } from "react";
 const ProjectCard = () => {
   const [projects, setProjects] = useState([]);
