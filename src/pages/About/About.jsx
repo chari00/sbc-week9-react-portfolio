@@ -68,12 +68,10 @@ const About = () => {
                 and React knowledge to create engaging user interfaces.
               </p>
               <p className="mt-4 max-w-[60rem] text-left  text-base/6 text-neutral-300">
-                I&apos;m excited about the diverse career paths opening up for me in
-                the tech industry. With my full-stack development skills, I
-                could start as a junior software developer, working on both
-                front-end and back-end projects. I&apos;m particularly interested in
-                front-end development, where I can use my HTML, CSS, JavaScript
-                and React knowledge to create engaging user interfaces.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              aspernatur reiciendis tenetur illum ex nisi, temporibus at et
+              perferendis, eius doloremque ipsum atque molestiae quas, omnis
+              necessitatibus est dolore amet.
               </p>
             </div>
           </WobbleCard>
