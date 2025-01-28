@@ -7,7 +7,7 @@ const QrCode = () => {
     <div>
       <Button>
         <a
-          href="https://drive.google.com/file/d/120wvffMVH6ehcm1tVeYWYWb194r-LH9j/view?usp=sharing"
+          href="https://chari-cruz-portfolio-77qh.vercel.app/"
           rel="noopener noreferrer"
           target="_blank"
         >
